@@ -9,3 +9,5 @@
 3. RAG approach: input a Reddit post and retrieve relevant data from Opensearch using semantic search and feed them to Amazon Bedrock.
 4. Bedrock will verify the post. If it's verified as important post, its id is stored in S3. Otherwise, nothing happens.
 5. Frontend service will fetch the ids of verified posts from S3 and fetch them to show them as important posts.
+
+test
